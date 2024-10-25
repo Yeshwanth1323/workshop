@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ya{
+    background-color: rgb(64, 75, 75);
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+.log{
+    padding: 1rem;
+    width: 80%;
+    border: 3px solid rgb(1, 12, 16);
+    outline:none;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:74px 100px 80px rgba(233, 229, 229, 0.924);
+
+}
+.login{
+
+    background-color: aqua;
+    
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow:74px 100px 80px rgba(225, 220, 220, 0.924);
+    font-weight: bold;
+}
+.login : :focus{
+   border-bottom: 2px solid ;
+
+}
