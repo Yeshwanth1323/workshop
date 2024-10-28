@@ -1,14 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import { Outlet } from 'react-router-dom'
 
-const webLayout = () => {
+const WebLayout = () => {
   return (
     <>
-    <div className=''></div>
+    <div className=''>
     <Navbar />
-    <Outlet />
+    <Outlet/>
+    </div>
     </>
   )
 }
 
-export default webLayout
+export default WebLayout
